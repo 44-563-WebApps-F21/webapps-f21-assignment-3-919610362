@@ -2,4 +2,4 @@
 Assignment 3 - Basic HTML
 Learning basic HTML for initial use
 
-<img src="img_Hero-.png" alt="Superhero Image">
+<img src="Hero.png" alt="Superhero Image">

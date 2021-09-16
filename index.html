@@ -75,6 +75,25 @@
 </tr>
 </table>
 
+<hr>
+<h3>Code Display</h3>
+<blockquote cite="https://brilliant.org/wiki/convex-hull/"> The convex hull is a ubiquitous structure in computational geometry. Even though it is a useful tool in its own right, it is also helpful in constructing other structures like Voronoi diagrams, and in applications like unsupervised image analysis.</blockquote>
+
+<a href="https://brilliant.org/wiki/convex-hull/"> Link to the description</a>
+
+
+<pre>
+    typedef int ftype;
+    typedef complex<ftype> point;
+    #define x real
+    #define y imag
+    ftype dot(point a, point b) {
+    return (conj(a) * b).x();
+    }
+    ftype cross(point a, point b) {
+    return (conj(a) * b).y();
+    }
+</pre>
     
 
 
